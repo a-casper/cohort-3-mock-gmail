@@ -28,6 +28,69 @@
   color: #61dafb;
 }
 
+td {
+  padding-right: 100px;
+}
+
+th {
+  text-align: left;
+}
+
+textarea {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+}
+
+
+
+.modal {
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  z-index: 10;
+  background: azure;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.modal > div {
+  padding: 5px;
+}
+
+.btn-bot {
+  position:absolute;
+  margin-left:-50px;
+  left:50%;
+  width:100px;
+  bottom:10px;
+}
+
+.btn-ctr {
+  display: block;
+  margin: 15px auto;
+}
+
+.short-label {
+  margin-right: 42px;
+}
+
+.title {
+  color: #F79020;
+  text-align: center;
+}
+
+.inbox {
+  margin: 0 auto;
+}
+
+#send {
+  bottom: 35px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
